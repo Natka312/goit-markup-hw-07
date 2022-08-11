@@ -88,7 +88,7 @@ img {
 .header-container {
   display: flex;
 }
-.header-list {
+.nav__list {
   display: flex;
   align-items: center;
 }
@@ -110,11 +110,11 @@ img {
 .accent {
   color: #2196f3;
 }
-.header-item {
+.nav__item {
   margin-right: 51px;
 }
 
-.header-nav-list {
+.nav__list {
   display: flex;
   align-items: center;
   list-style: none;
@@ -124,7 +124,7 @@ img {
 .link:hover {
   color: #2196f3;
 }
-.header-link {
+.nav__link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -157,9 +157,9 @@ img {
   background: #2196f3;
   border-radius: 2px;
 }
-.header-link:hover,
-.header-link:focus,
-.header-link:active {
+.nav__link:hover,
+.nav__link:focus,
+.nav__link:active {
   color: var(--accent-txt-cl);
 }
 .contats-svg {
