@@ -7,7 +7,7 @@ html {
 *::after {
   box-sizing: inherit;
 }
-:root {
+/*:root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Ralewey', sans-serif;
   --main-txt-cl: #212121;
@@ -20,14 +20,14 @@ html {
   --color-svg-links: #afb1b8;
   --color-svg-bg-footer: rgba(255, 255, 255, 0.1);
   --btn-hero-hover: #188ce8;
-}
-body {
+}*/
+/*body {
   font-family: var(--main-font);
   color: var(--main-txt-cl);
 }
 .no-scroll {
   overflow: hidden;
-}
+}*/
 h1,
 h2,
 h3,
@@ -961,7 +961,7 @@ img {
   opacity: 1;
   background-color: #2196f3;
 }
-.register-form-btn {
+.register__form-btn {
   align-items: center;
   gap: 8px;
 }
