@@ -14,13 +14,13 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/main.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css" />
+    
   </head>
   <body>
     <!--Header section-->
-    <header class="header header-portfolio">
+    <header class="header header__portfolio-line">
       <!--header logo-->
-      <div class="container header-container">
+      <div class="container header__container">
         <nav class="nav">
           <!--header section-->
           <ul class="nav__list list">
@@ -29,13 +29,13 @@
                 <span class="accent">Web</span>Studio</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="./index.html">Студия</a>
+              <a class="nav__link link" href="./index.html">Студія</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link nav__link-current link" href="./portfolio.html">Портфолио</a>
+              <a class="nav__link nav__link-current link" href="./portfolio.html">Портфоліо</a>
             </li>
             <li class="nav__item">
-              <a class="nav__link link" href="#contacts">Контакты</a>
+              <a class="nav__link link" href="#contacts">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -67,13 +67,13 @@
           <h1 class="visually-hidden">Наши роботы</h1>
           <ul class="list portfolio__list">
             <li class="portfolio__btn-li">
-              <button class="portfolio__btn portfolio__btn-link" type="button">Все</button>
+              <button class="portfolio__btn portfolio__btn-link" type="button">Усі</button>
             </li>
             <li class="portfolio__btn-li">
-              <button class="portfolio__btn" type="button">Веб-сайты</button>
+              <button class="portfolio__btn" type="button">Веб-сайти</button>
             </li>
             <li class="portfolio__btn-li">
-              <button class="portfolio__btn" type="button">Приложения</button>
+              <button class="portfolio__btn" type="button">Додатки</button>
             </li>
             <li class="portfolio__btn-li">
               <button class="portfolio__btn" type="button">Дизайн</button>
@@ -149,7 +149,7 @@
                 </div>
                 <div class="portfolio__discription">
                   <h2 class="portfolio__title">Ресторан Seafood</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -171,7 +171,7 @@
                   </div>
                 </div>
                 <div class="portfolio__discription">
-                  <h2 class="portfolio__title">Проект Prime</h2>
+                  <h2 class="portfolio__title">Проєкт Prime</h2>
                   <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
@@ -194,8 +194,8 @@
                   </div>
                 </div>
                 <div class="portfolio__discription">
-                  <h2 class="portfolio__title">Проект Boxes</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <h2 class="portfolio__title">Проєкт Boxes</h2>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -240,7 +240,7 @@
                   </div>
                 </div>
                 <div class="portfolio__discription">
-                  <h2 class="portfolio__title">Издание Limited Edition</h2>
+                  <h2 class="portfolio__title">Видання Limited Edition</h2>
                   <p class="portfolio__text">Дизайн</p>
                 </div>
               </a>
@@ -263,7 +263,7 @@
                   </div>
                 </div>
                 <div class="portfolio__discription">
-                  <h2 class="portfolio__title">Проект LAB</h2>
+                  <h2 class="portfolio__title">Проєкт LAB</h2>
                   <p class="portfolio__text">Маркетинг</p>
                 </div>
               </a>
@@ -287,7 +287,7 @@
                 </div>
                 <div class="portfolio__discription">
                   <h2 class="portfolio__title">Growing Business</h2>
-                  <p class="portfolio__text">Приложение</p>
+                  <p class="portfolio__text">Додаток</p>
                 </div>
               </a>
             </li>
@@ -371,7 +371,9 @@
         <form class="subscribe">
           <p class="footer__advantege-title">Підпишіться на розсилку</p>
           <div class="footer__input-email">
-            <input class="footer__border" name="user-email" type="email" placeholder="E-mail"/>
+            <input class="footer__border" name="user-email" type="email" placeholder="E-mail"  minlength="9"
+            maxlength="50"
+            required/>
             <button class="btn footer__email-btn">
               Підписатися
               <svg class="footer__btn-icon" width="24" height="24">

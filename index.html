@@ -14,14 +14,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
     <link rel="stylesheet" href="./css/main.min.css"/>
-    <link rel="stylesheet" href="./css/styles.css" />
+   
   </head>
 
   <body data-page>
     <!--Header section-->
     <header class="header">
       <!--header logo-->
-      <div class="container header-container">
+      <div class="container header__container">
         <nav class="nav">
           <!--header section-->
           <ul class="nav__list list">
@@ -569,7 +569,9 @@
         <form class="subscribe">
           <p class="footer__advantege-title">Підпишіться на розсилку</p>
           <div class="footer__input-email">
-            <input class="footer__border" name="user-email" type="email" placeholder="E-mail"/>
+            <input class="footer__border" name="user-email" type="email" placeholder="E-mail"  minlength="9"
+            maxlength="50"
+            required/>
             <button class="btn footer__email-btn">
               Підписатися
               <svg class="footer__btn-icon" width="24" height="24">
